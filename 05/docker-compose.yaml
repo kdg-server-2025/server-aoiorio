@@ -1,6 +1,6 @@
 services:
   db:
-    image: mariadb:noble
+    image: mariadb:10.11.6-jammy
     volumes:
       - db-data:/var/lib/mariadb
     restart: always
